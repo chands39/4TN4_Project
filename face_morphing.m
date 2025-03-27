@@ -1,8 +1,8 @@
 clc; clear; close all;
 
 % Load images
-img1 = imread('./test3/young.png');  % Young face
-img2 = imread('./test3/old.png');    % Old face
+img1 = imread('./test1/young.png');  % Young face
+img2 = imread('./test1/old.png');    % Old face
 
 % Resize images to be the same size
 img_size = [500, 500]; 
