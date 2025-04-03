@@ -52,7 +52,11 @@ function sliderMorphApp()
         [file, path] = uigetfile({'*.jpg;*.jpeg;*.png'}, ['Select ', which, ' image']);
         if isequal(file, 0); return; end
         img = imread(fullfile(path, file));
-        if size(img,3) == 1; img = repmat(img, 1, 1, 3); end
+    
+        % 🔁 Convert to grayscale and back to RGB-like shape (3 channels)
+        img = rgb2gray(img);
+        img = repmat(img, 1, 1, 3);
+    
         img = imresize(img, img_size);
         if strcmp(which, 'young')
             img1 = img;
