@@ -4,6 +4,9 @@
 This project implements a MATLAB-based face morphing tool to simulate intermediate age progression between two facial images — transitioning from a young face to an older version of the same individual.
 
 ---
+## Required MATLAB Add-Ons 
+Computer Vision Toolbox
+Image Processing Toolbox
 
 ## 🔧 How to Use
 
