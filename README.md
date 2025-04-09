@@ -10,7 +10,8 @@ This project implements a MATLAB-based face morphing tool to simulate intermedia
 ### 1. Automatic Feature Detection (Optional)
 
 To test the automatic facial feature detection:
-(test images are in ./automatic_feature_detection_algor/test_images. To change the test images tested, go to test.m and change path to two input images in lines 4 & 6)
+(test images are in ./automatic_feature_detection_algor/test_images). 
+To change the test images tested, go to test.m and change path to two input images in lines 4 & 6)
 
 Run in MATLAB: 
 > cd automatic_feature_detection_algor\
