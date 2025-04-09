@@ -32,11 +32,13 @@ In pop-up window, use cursor to select landmark points as seen below for both im
 
 ![image](https://github.com/user-attachments/assets/c279dae9-87e1-4aee-a2e5-5107ca452923)
 
-NOTE: Select the landmarks in the same order and postion for both images, otherwise morphing will be incorrect
+NOTE: Select the landmarks in the same order and position for both images, otherwise morphing will be incorrect
 
 Use the "Age Progression" slider to change alpha from 0 to 1 and show the age progression of the individual. Alpha closer to 0 will give younger looking image, and alpha closer to 1 will give older looking image. 
 
 ![image](https://github.com/user-attachments/assets/97953a49-c89e-410d-918e-f448cc84dc00)
+
+![image](https://github.com/user-attachments/assets/8f7e1ac1-963a-40c8-8a38-a8037b886e1e)
 
 
 
