@@ -53,7 +53,7 @@ function sliderMorphApp()
         if isequal(file, 0); return; end
         img = imread(fullfile(path, file));
     
-        % 🔁 Convert to grayscale and back to RGB-like shape (3 channels)
+        % ?Convert to grayscale and back to RGB-like shape (3 channels)
         img = rgb2gray(img);
         img = repmat(img, 1, 1, 3);
     
